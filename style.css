@@ -1,0 +1,22 @@
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+}
+input[type="file"] {
+  margin-top: 1rem;
+}
+#result {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #333;
+}
