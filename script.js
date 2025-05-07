@@ -6,8 +6,9 @@ let model;
 let labels;
 
 async function loadModel() {
-  model = await tf.loadLayersModel("product-identifier-webapp/model.json");
-  const response = await fetch("product-identifier-webapp/labels.json");
+model = await tf.loadLayersModel("model.json");
+const response = await fetch("labels.json");
+
   labels = await response.json();
 }
 
