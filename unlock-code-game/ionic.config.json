@@ -1,0 +1,7 @@
+{
+  "name": "unlock-code-game",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
